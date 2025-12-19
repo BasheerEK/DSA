@@ -1,0 +1,3 @@
+one=10
+two="10"
+print(one==two)

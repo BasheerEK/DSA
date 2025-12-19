@@ -1,0 +1,2 @@
+city="kunnumpuram"
+print(city)

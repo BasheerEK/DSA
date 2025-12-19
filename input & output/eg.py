@@ -1,0 +1,6 @@
+print("welcome to python")
+name=input("Enyter your name")
+print("Hello ",name)
+age_string=input("Enter your age")
+age_number=int(age_string)
+print("in 5 years you will be ",age_number + 5)
