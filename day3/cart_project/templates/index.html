@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .remove-btn {
+            background-color: #f44336;
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+        .remove-btn:hover {
+            background-color: #da190b;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            border-radius: 4px;
+        }
+        .total {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Shopping Cart</h1>
+        
+        <form action="/add" method="POST">
+            <input type="text" name="item" placeholder="Enter item name" required>
+            <button type="submit">Add Item</button>
+        </form>
+        
+        <h2>Your Cart:</h2>
+        {% if cart %}
+            <ul>
+            {% for item in cart %}
+                <li>
+                    {{ item }}
+                    <form action="/remove" method="POST" style="display: inline;">
+                        <input type="hidden" name="item" value="{{ item }}">
+                        <button type="submit" class="remove-btn">Remove</button>
+                    </form>
+                </li>
+            {% endfor %}
+            </ul>
+            <div class="total">Total Items: {{ total }}</div>
+            <a href="/clear"><button style="margin-top: 10px;">Clear Cart</button></a>
+        {% else %}
+            <p>Your cart is empty!</p>
+        {% endif %}
+    </div>
+</body>
+</html>
