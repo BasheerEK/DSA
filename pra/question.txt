@@ -1,0 +1,272 @@
+🔥 BIG LOOP & LOGIC PRACTICE QUESTIONS
+🟢 SECTION 1: Loop + Logic (Core Thinking)
+1️⃣ Prime Number Checker
+
+Write a program that:
+
+Takes a number n
+
+Checks whether it is prime or not
+
+Print "Prime" or "Not Prime"
+
+👉 Constraint:
+
+Use only loops and conditions
+
+Do not use built-in functions
+
+2️⃣ Print Prime Numbers in a Range
+
+Input:
+
+start = 10
+end = 50
+
+
+Output:
+
+11 13 17 19 23 29 31 37 41 43 47
+
+3️⃣ Reverse a Number
+
+Input:
+
+12345
+
+
+Output:
+
+54321
+
+
+👉 Must use:
+
+while loop
+
+% and //
+
+4️⃣ Palindrome Number
+
+Check whether a number is a palindrome.
+
+Input:
+
+121
+
+
+Output:
+
+Palindrome
+
+5️⃣ Count Digits in a Number
+
+Input:
+
+987654
+
+
+Output:
+
+6
+
+🟡 SECTION 2: Lists + Loops (VERY IMPORTANT)
+6️⃣ Find Second Largest Number
+
+List:
+
+[10, 45, 67, 23, 89, 89]
+
+
+Output:
+
+67
+
+
+👉 Rules:
+
+Do not use sort()
+
+Do not use set()
+
+7️⃣ Remove Duplicates (Maintain Order)
+
+Input:
+
+[1, 2, 2, 3, 4, 3, 5]
+
+
+Output:
+
+[1, 2, 3, 4, 5]
+
+8️⃣ Count Frequency of Each Element
+
+Input:
+
+[1, 2, 2, 3, 3, 3, 4]
+
+
+Output:
+
+1 → 1
+2 → 2
+3 → 3
+4 → 1
+
+9️⃣ Split Even and Odd Lists
+
+Input:
+
+[1, 2, 3, 4, 5, 6]
+
+
+Output:
+
+Even → [2, 4, 6]
+Odd → [1, 3, 5]
+
+🔟 Rotate List Left by K Positions
+
+Input:
+
+lst = [1, 2, 3, 4, 5]
+k = 2
+
+
+Output:
+
+[3, 4, 5, 1, 2]
+
+🔵 SECTION 3: Functions + Loop (DSA STYLE)
+1️⃣1️⃣ Function: Factorial
+
+Write a function:
+
+factorial(n)
+
+
+That returns factorial using:
+
+Loop only
+
+No recursion
+
+1️⃣2️⃣ Function: Sum of Digits
+
+Input:
+
+567
+
+
+Output:
+
+18
+
+1️⃣3️⃣ Function: Count Even Numbers in List
+
+Input:
+
+[1, 2, 4, 7, 8]
+
+
+Output:
+
+3
+
+1️⃣4️⃣ Function: Fibonacci Series
+
+Input:
+
+n = 7
+
+
+Output:
+
+0 1 1 2 3 5 8
+
+1️⃣5️⃣ Function: Check Armstrong Number
+
+Input:
+
+153
+
+
+Output:
+
+Armstrong Number
+
+🔴 SECTION 4: REAL LOGICAL THINKING (ADVANCED)
+1️⃣6️⃣ Pattern Printing
+1
+12
+123
+1234
+
+1️⃣7️⃣ Find Missing Number
+
+List:
+
+[1, 2, 3, 5, 6]
+
+
+Output:
+
+4
+
+1️⃣8️⃣ Find Pair with Given Sum
+
+Input:
+
+lst = [1, 4, 6, 8, 3]
+target = 10
+
+
+Output:
+
+(4, 6)
+
+1️⃣9️⃣ Longest Word in a List
+
+Input:
+
+["python", "loop", "programming", "code"]
+
+
+Output:
+
+programming
+
+2️⃣0️⃣ Menu-Driven Program
+
+Create a menu:
+
+1. Add numbers
+2. Find max
+3. Check even/odd
+4. Exit
+
+
+Keep running until user chooses Exit.
+
+🎯 HOW TO PRACTICE (VERY IMPORTANT)
+
+Solve 5 questions per day
+
+Write code on paper → then type
+
+Don’t Google answers
+
+If stuck for 15 min, ask me
+
+If you want:
+
+✅ Solutions step by step
+
+🧪 Test cases
+
+🧠 Interview-level problems
+
+📅 Daily practice schedule
+
+Just say: “Give solutions for questions 1–5” or tell me the question number 💪
